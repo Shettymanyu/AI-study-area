@@ -10,3 +10,5 @@ How I'd Learn AI in 2025 - https://www.youtube.com/watch?v=h2FDq3agImI
 Baisc SQL - Learn Basic SQL in 15 Minutes | Business Intelligence For Beginners | SQL Tutorial For Beginners - https://www.youtube.com/watch?v=kbKty5ZVKMY
 
 Cloud Storage and data - https://www.youtube.com/watch?v=jcgaNrC4ElU&list=PLOspHqNVtKAC-FUNMq8qjYVw6_semZHw0
+
+SQL Basics - https://www.youtube.com/watch?v=wmiDdBG-yP4&t=1s
