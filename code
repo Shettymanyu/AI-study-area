@@ -1,0 +1,37 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# Initialize the webdriver
+driver = webdriver.Chrome()  # Replace with your desired browser
+
+# Navigate to the webpage
+driver.get("https://fgnluat.fggeneral.in/WebApplicationExcelUpload/WebFormExcelUpload.aspx")
+
+# Wait for the "Choose File" button to be clickable
+choose_file_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "ctl00_ContentPlaceHolder1_FileUpload1_iBtnFileUpload")))
+
+# Click the "Choose File" button
+choose_file_button.click()
+
+# Wait for the file dialog to appear
+# (Note: This part might be tricky as file dialogs are system-specific)
+
+# Select the desired file or folder
+# (This part will depend on your operating system and file manager)
+
+# Click the "Open" button in the file dialog
+
+# Wait for the file to be uploaded and processed
+# (You might need to add specific wait conditions here based on the web page's behavior)
+
+# Click the "Submit" button
+submit_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "ctl00_ContentPlaceHolder1_Button1")))
+submit_button.click()
+
+# Wait for the results or confirmation message
+# (Add appropriate wait conditions and assertions here)
+
+# Close the browser
+driver.quit()
