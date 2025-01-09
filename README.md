@@ -12,3 +12,6 @@ Baisc SQL - Learn Basic SQL in 15 Minutes | Business Intelligence For Beginners 
 Cloud Storage and data - https://www.youtube.com/watch?v=jcgaNrC4ElU&list=PLOspHqNVtKAC-FUNMq8qjYVw6_semZHw0
 
 SQL Basics - https://www.youtube.com/watch?v=wmiDdBG-yP4&t=1s
+
+
+SQL server studio - https://youtu.be/3mukGYjvixE?si=Mu3Qn_BnJ0AX_JYa
